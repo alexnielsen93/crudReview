@@ -18,7 +18,7 @@ constructor(){
       [name]: value
     })
   }
-  handleClick = (event)=>{
+  handleClick = ()=>{
     let newAnimal = this.state
     this.props.createAnimal(newAnimal)
     // this.props.handleCreate(newAnimal)
